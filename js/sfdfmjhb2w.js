@@ -1,3 +1,28 @@
+$('.homemobile-carousal .owl-carousel').owlCarousel({
+    items: 2,
+    dots: false,
+    nav: true,
+    dotsEach: true,
+    mouseDrag: false,
+    loop: true,
+    navText: ["<img src='./images/success/onearrow.png'>", "<img src='./images/success/onearrow.png'>"],
+    responsive: {
+        0:{
+        items: 1
+        },
+        576:{
+        items: 2
+        },
+        768:{
+        items: 4
+        },
+        1250:{
+        items: 5
+        },
+    }
+});
+
+
 $('.success-carousal .owl-carousel').owlCarousel({
     items: 4,
     dots: false,
